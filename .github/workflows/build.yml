@@ -52,8 +52,8 @@ jobs:
       - name: Auto Release
         uses: CupOfTea696/gh-action-auto-release@v1.0.0
         with:
-          title: "Release: $version"
-          tag: "v$semver"
+          title: "Release: v1"
+          tag: "v1"
           draft: false
         env:
           GITHUB_TOKEN: ${{ secrets.DUBUX }}
